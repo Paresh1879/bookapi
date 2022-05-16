@@ -1,0 +1,63 @@
+h1,p{
+    padding:20px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    color:rgb(7, 7, 97);
+
+}
+
+.result{
+    padding:20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    justify-content:center;
+}
+.results{
+    padding: 100px;
+    background-image :linear-gradient(180deg, #FFFFFF 0%, #6284FF 60%, #ea0f0f 100%);
+    text-align:center;
+    justify-content:center;
+    
+}
+#Thirukural_btn{
+    color:rgb(101,101,215);
+}
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {}
+
+  /* ----------- Non-Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
+}
